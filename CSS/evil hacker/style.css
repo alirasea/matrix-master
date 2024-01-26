@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#container{
+    height: 100vh;
+    width: 100;
+   background-color:gray;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.blue{
+    height: 20vh;
+    width: 100;
+   background-color:rgb(41, 12, 227);
+   margin: 10px;
+}
+
+.container2{
+    height: 80vh;
+    width: 100;
+   gap: 10px;
+   display:flex;
+   flex-direction: row;
+}
+
+.red{
+    height: 65vh;
+    width: 20%;
+   background-color:rgb(227, 12, 12);
+   gap: 10px; 
+}
+.yellow{
+    height: 75vh;
+    width: 80%;
+   background-color:rgb(227, 216, 12);
+   gap: 10px; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container3{
+    height: 72vh;
+    width: 98%;
+    gap: 10px;
+   display: flex;
+   flex-direction: column;
+}
+.purpols{
+    height: 44vh;
+    width: 100%;
+    gap: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.pink{
+    height: 35vh;
+    width: 100%;
+    gap: 10px;
+   background-color: pink;
+}
+
+.purp{
+    height: 44vh;
+    width: 35%;
+    gap: 10px;
+   background-color: blueviolet;
+}

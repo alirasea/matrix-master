@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    background-color: gray;
+    height: 90vh;
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    background-color: white;
+    height: 80vh;
+    width: 60%;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
+.icon{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#twitter{
+    text-align: center;
+    color: dodgerblue;
+    margin-left: 45%;
+}
+.registration{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.registration h3{
+    margin: 30px;
+    font-size: 30px;
+    font: bold 40px;
+}
+.registration button{
+    margin: 15px;
+    padding: 10px;
+    background-color: white;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.registration i{
+    margin-right: 8px;
+    size: 40px;
+    color: rgb(178, 231, 20);
+}
+#appl{
+    margin-right: 8px;
+    size: 40px;
+    color: rgb(0, 0, 0); 
+}
+
+.hr {
+    width: 25%; /* Set the width of your border */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hr h3 {
+    display: flex; /* Adjust padding as needed */
+    background-color: white; /* Set background color to match your page background */
+   justify-content: center;
+   align-items: center;
+
+}
+
+.inp{
+    margin: 20px;
+    text-align: center;
+}
+.inp input{
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+}
+.but-forget{
+    display: flex;
+    flex-direction: column;
+}
+.but-forget button{
+    margin: 15px;
+    padding: 10px;
+    background-color: black;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 20px;
+    color: aliceblue;
+}
+#forget{
+    margin: 15px;
+    padding: 10px;
+    background-color: white;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 20px;
+    color: rgb(0, 3, 5);
+    font: bold;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.inp h3{
+    margin-top: 20px;
+    color: rgb(97, 95, 95);
+    size: 30px;
+}
+.inp span{
+    color: rgb(8, 113, 189);
+    size: 30px;
+}
